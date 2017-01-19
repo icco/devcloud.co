@@ -1,0 +1,10 @@
+language: node_js
+deploy:
+  provider: onesie
+  edge:
+    source: icco/dpl
+    branch: onesie
+  key: 1193dc06-d1be-461d-9025-97c4cc50319b
+  secret:
+    secure: SQcWfzjpjpoxAEfRgCQ7n99RuA9fmLMRg8vYPA0E/UurtVq2z25JSjaYuDB+RluJf0Hz4pn0XMLbKerOOiA5aPQKu2WjsOVBz4kU8T4Nw6C3m4Rn5Ss44mLCT0tDgZRkN8Wf0CaSLIveKa1kbZAnp/kd1HLja2qSJYFON2VNiiD8/QT4U4RZiuz8mO1NDcBY6BGtObqhRLD9g7eVhtVEH1HJ8UrD9iOvSn5Kn8VWbmgstxsXaAlhqvcrC6QtWca5j4MeTM7IadiFhM41sFDZxbyMitPXGlYU6ZpcP9uwAN22Q2tNh/HF/G0P8HY57XrY0vFt996EziiVw9gzA5wuahKggMBJ43P0xTuwAbEzw8nmEHUZpP7s7oKVHyOLBmNdWEvVWaJELl+GAhSv+Jn56DU5wCrKA/5T5hB9SS8AR3bdaLBiBxX4BxddpMUVYy5UemG0wv05fiXrEoPHpAyoJ+mNLQZLmm4YoIqR3nK+rhhttoQqUKOpoAKdTrl+oginMJVnsimr3eZVVCW7aLEx4I+LoOVRNAOaUzDl8tQMyBhAxMzgKltDTN12VLOx+UEKrQuFAYFefOPl7MbgIg7/WexTWfJAIF1tOwHc/izWExyObGmd0Jm0LeS3jf/jZ7oqpIp+8YHPwyLtBuHvrN2+LKqMx4VfJj6tjmYlsXwdFBM=
+  domain: devcloud.co
